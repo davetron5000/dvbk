@@ -1,10 +1,17 @@
-// Include all partials you want compiled to i.css. You don't need to include the _ (underscore). Hooray.
+/*
 
-@import "variables";
-@import "queries";
-@import "normalize";
+        Mathematical
+        A simple, responsive framework
+        
+        Made with love by Jxnblk
 
-@import "grid";
+
+*/
+
+@import "lib/normalize";
+@import "theme";
+@import "base";
 @import "type";
-@import "styles";
+@import "structure";
+@import "modules";
 

@@ -2,18 +2,65 @@
 layout: default
 ---
 
-<main>
-  <h1>Hello World</h1>
-</main>
+<section>
+  <div class="content tc">
+    <h2 class="f3 caps ss">Who is this book for?</h2>
+    <p class="f4 intro">
+      You already write great code, and can figure out the latest frameworks. This 
+      book isn't about that - it's about everything else. As such, there's very little 
+      code inside, meaning everyone from PHP hackers to hardcore embedded C programmers
+      will get a lot out of it.
+    </p>
+    <div class=" mw1 center dn">
+      <img src="images/cover.png" alt="Cover" class="bor bor-gry" />
+    </div>
+    <h1 class="ss caps f3">Contents</h1>
+    <ul class="list f4">
+      <li>Focus on Delivering Results <a href="{{site.url}}/results" title="Read Excerpt" class="f5 db">Read an excerpt</a></li>
+      <li>Fix Bugs Efficiently and Cleanly</li>
+      <li>Add Features with Ease</li>
+      <li>Deal With Technical Debt and Slop<a href="{{site.url}}/technical_debt" class="f5 db">Read an excerpt</a></li>
+      <li>Play Well With Others</li>
+      <li>Make Technical Decisions</li>
+      <li>Bootstrap a Greenfield System</li>
+      <li>Learn to Write</li>
+      <li>Interview Potential Co-Workers - <a href="{{site.url}}/interviews/" class="f5 db">Read an excerpt</a></li>
+      <li>Lead a Team</li>
+    </ul>
+    <a href="#" title="Table of Contents" class="btn-link p1 m1 ss caps f5 mt2 dib">See full table of contents</a>
+  </div>
+</section>
 
-{% if site.posts %}
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}" title="{{post.title}}">
-          {{ post.title }}
-        </a>
-      </li>
-    {% endfor %}
+<section class="borto borbo bor-gry pb2 pt2 mt4 mb4">
+  <div class="content">
+    <h1 class="ss caps f4">Want the best projects?</h1>
+    <p class="mb2">
+      The Senior Software Engineer shows you simple techniques for fixing bugs,
+      implementing features, and getting things done quickly. You'll be the most
+      valuable engineer on your team in no time.
+    </p>
+    <h1 class="ss caps f4">Not interested in management?</h1>
+    <p class="mb2">
+      The Senior Software Engineer outlines what it means to be a technical leader.
+      You'll learn to be a reliable decision maker without leaving what you love –
+      programming – behind.
+    </p>
+    <h1 class="ss caps f4">Want to do it your way?</h1>
+    <p class="mb2">
+      The Senior Software Engineer will teach you to lead by example. You'll become
+      more than “just a programmer” — you'll be someone who consistently delivers
+      results with software. Then you'll be in charge of how things get done.
+    </p>
+  </div>
+</section>
+<section class="tc content">
+  <h1 class="ss f4 caps">What you get</h1>
+  <h2 class="f4 thin">200 pages of excellence in four DRM free formats.</h2>
+  <ul class="list f5">
+    <li>PDF</li>
+    <li>MOBI (Kindle)</li>
+    <li>ePub (iPad and most other e-readers)</li>
+    <li>plain text (grep|ag|awk away!)</li>
   </ul>
-{% endif %}
+  <div class="tc mt2"><a href="#" class="ss btn-link dib center p1 caps wht tc">Buy Now!</a></div>
+</section>

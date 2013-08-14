@@ -13,7 +13,7 @@ end # task :sass
 
 desc "Start Sass so that is minifies and compiles to nkd/css/i.css upon file save"
 task :minify do
-  system "sass --watch _sass:css --style compressed"
+  system "sass --watch _sass --style compressed"
 end # task :minify
 
 desc "Remove _site from directory before committing"

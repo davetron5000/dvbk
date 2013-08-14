@@ -1,74 +1,88 @@
-/* ==========================================================================
-   TYPE 
+/*
 
-   - Fonts
-   - Headers
-   - Copy
-
-   ========================================================================== */
-
-.serif      { }
-.sans-serif { } 
-
-/* Headers
-   ========================================================================== */
-
-h1,.h1 { font-size: $font-size-1; }
-h2,.h2 { font-size: $font-size-2; }
-h3,.h3 { font-size: $font-size-3; }
-h4,.h4 { font-size: $font-size-4; }
-h5,.h5 { font-size: $font-size-5; }
-h6,.h6 { font-size: $font-size-6; }
+        Mathematical Type
 
 
-/* Copy
-   ========================================================================== */
+*/
 
-.intro {  font-size: $font-size-3;}
-p {       font-size: $font-size-4;}
+body {
+  font-size: 100%;
+  line-height: 1.6;
+  font-weight: 400;
+}
 
+.ss {
+  font-family: "proxima-nova", helvetica, arial, sans-serif;
+}
 
+.s {
+  font-family: "skolar", Georgia, serif;
+}
 
-/* Casing
-   ========================================================================== */
+h1,.f1 { font-size: 1.75rem; }
+h2,.f2 { font-size: 1.5rem; }
+h3,.f3 { font-size: 1.25rem; }
+h4,.f4 { font-size: 1rem; }
+h5,.f5 { font-size: .8rem; }
+h6,.f6 { font-size: .7rem; }
 
-.caps-lock  { text-transform:uppercase; }
-.title-casing { text-transform:capitalize; }
+@include break(medium) {
+  h1,.f1 { font-size: 2rem; }
+  h2,.f2 { font-size: 1.75rem; }
+  h3,.f3 { font-size: 1.5rem; }
+  h4,.f4 { font-size: 1.25rem; }
+  h5,.f5 { font-size: 1rem; }
+  h6,.f6 { font-size: .75rem; }
+}
 
+@include break(large) {
+  h1,.f1 { font-size: 3rem; }
+  h2,.f2 { font-size: 2.75rem; }
+  h3,.f3 { font-size: 2rem; }
+  h4,.f4 { font-size: 1.5rem; }
+  h5,.f5 { font-size: 1rem; }
+  h6,.f6 { font-size: .75rem !important; }
+  .mega {  font-size:3rem!important;line-height:1.3; margin-bottom:0!important; }
+}
 
-
-/* Tracking
-   ========================================================================== */
-
-.title      { letter-spacing:0.1em; text-transform:uppercase;}
-
-
-
-/* Alignment
-   ========================================================================== */
-
-.ar         { text-align: right;  }
-.al         { text-align: left;   }
-.ac,
-.ct         { text-align: center; }
-
-
-
-/* Wrapping
-   ========================================================================== */
-
-.nw    { white-space:nowrap; }
-
-
-
-/* Leading
-   ========================================================================== */
-
-.lh-1       { line-height:1; }
-.lh-2       { line-height:2; }
-.lh-title   { line-height:1.3; }
-.lh-copy    { line-height:1.5; }
+/* Mobile-first font sizes
+ *
+*/
 
 
-   
+p, ul, ol, .p {
+  font-size: 1.25rem; // Used to be 1.125rem for xsmall
+}
 
+small, .small {
+  font-size: .875rem;
+  -webkit-text-size-adjust: 100%;
+  @include break(medium) {
+    font-size: 1rem;
+  }
+}
+
+strong, .bold {
+  font-weight: 700;
+}
+.reg {
+  font-weight: normal;
+}
+.i {
+  font-style: italic;
+}
+
+.caps { 
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.mono { font-family: "Source Code Pro", monospace; }
+
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr  { text-align: right; }
+.thin { font-weight: 100; }
+.ttl { text-transform: none; }
+.ls1 { letter-spacing:.01em; }
+.ts {text-shadow: 0 1px 0 #fff; }

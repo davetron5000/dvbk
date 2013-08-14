@@ -333,6 +333,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* apply a natural box layout model to all elements */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -356,10 +357,10 @@ body {
   margin-right: auto; }
 
 a {
-  color: #280c5c;
+  color: teal;
   text-decoration: none; }
   a:hover {
-    color: #14062f; }
+    color: #004d4d; }
 
 .dkgry {
   color: #444444; }
@@ -377,7 +378,7 @@ a {
   color: lightgrey; }
 
 .link {
-  color: #280c5c; }
+  color: teal; }
 
 .bg-dkgry {
   background-color: #444444; }
@@ -392,7 +393,7 @@ a {
   background-color: #eeeeee; }
 
 .bg-link {
-  background-color: #280c5c; }
+  background-color: teal; }
 
 .bor {
   border: 1px solid; }
@@ -432,18 +433,18 @@ a {
 
 .btn-link {
   color: #fff;
-  background-color: #280c5c;
+  background-color: teal;
   border-radius: .25rem;
   border: none; }
   .btn-link:hover {
     color: #fff;
-    background-color: #320f73; }
+    background-color: #00999a; }
   .btn-link:active {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); }
 
 .input:focus {
   outline: none;
-  border-color: #280c5c; }
+  border-color: teal; }
 
 .bg-img {
   background-image: url(img/bg.jpg);
