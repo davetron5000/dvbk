@@ -1096,6 +1096,7 @@ strong, .bold {
 .media {
   overflow: hidden; }
   .media .img {
-    float: left; }
+    float: left;
+    margin-right: 1rem; }
   .media .bd {
     overflow: hidden; }
