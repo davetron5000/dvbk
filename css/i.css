@@ -7,7 +7,7 @@
 
 
 */
-/* normalize.css v2.1.2 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -468,6 +468,12 @@ a {
 .shadow {
   box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.4); }
 
+pre {
+  background: #fff;
+  border: solid thin #999999;
+  padding: 10px;
+  border-radius: .25rem; }
+
 /*
 
         Base
@@ -623,7 +629,8 @@ strong, .bold {
   text-transform: uppercase;
   letter-spacing: .2em; }
 
-.mono {
+/* generated markup + reset is squashing this for vanilla pre and code */
+.mono, span.monospaced, pre, code, pre code {
   font-family: "Source Code Pro", monospace; }
 
 .tc {

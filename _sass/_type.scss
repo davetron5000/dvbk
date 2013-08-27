@@ -77,7 +77,10 @@ strong, .bold {
   letter-spacing: .2em;
 }
 
-.mono { font-family: "Source Code Pro", monospace; }
+/* generated markup + reset is squashing this for vanilla pre and code */
+.mono, span.monospaced, pre, code, pre code {  
+  font-family: "Source Code Pro", monospace; 
+}
 
 .tc { text-align: center; }
 .tl { text-align: left; }

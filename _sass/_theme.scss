@@ -110,3 +110,10 @@ a {
   box-shadow: 5px 5px 14px 1px rgba(0,0,0,0.4);
 }
 
+pre {
+  background: #fff;
+  border: solid thin $mdgry;
+  padding: 10px;
+  border-radius: .25rem;
+}
+
