@@ -5,7 +5,7 @@
 
 */
 
-img { 
+img {
   width: 100%;
   max-width: 100%;
 }
@@ -42,11 +42,22 @@ img {
 /* ==========================================================================
    UGH
    ========================================================================== */
-   
+
 
 .dn {display:none;}
 .db {display:block;}
 .dib {display:inline-block;}
-.list {list-style-type:none;margin-left:0;padding:0;}
+
+.list {
+  list-style-type:none;
+  margin-left:0;
+  padding:0;
+}
+
+.list-item {
+  margin-bottom:1rem;
+}
+
 .sq96 {height:96px;width:96px;line-height:96px;}
 
+blockquote { margin: 0; }

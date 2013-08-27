@@ -9,7 +9,8 @@ $dkgry: #444;
 $mdgry: #999;
 $gry: #d3d3d3;
 $ltgry: #eee;
-$link:  #280c5c;
+$link:  lighten(#280c5c, 35%);
+$title: lighten(#280c5c, 10%);
 
 
 
@@ -19,21 +20,28 @@ body {
   font-family: "skolar", Georgia, serif;
 }
 
-
 .content {
   padding:0 20px;
+
   max-width: 768px;
   margin-left:auto;
   margin-right:auto;
 }
 
 a {
+  -webkit-transition: color .3s;
+  transition: color .3s;
   color: $link;
   text-decoration: none;
-  &:hover {
-    color: darken($link, 10%);
+  &:hover,
+  &:active {
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    color: darken($link, 20%);
   }
 }
+
+/* Skins */
 
 .dkgry { color: $dkgry; }
 .mdgry { color: $mdgry; }
@@ -41,13 +49,19 @@ a {
 .wht {   color: #fff; }
 .gry {   color: $gry; }
 .link {  color: $link; }
+.title {  color: $title; }
 
 .bg-dkgry { background-color: $dkgry; }
 .bg-gry { color: $gry; }
 .bg-mdgry { background-color: $mdgry; }
 .bg-ltgry { background-color: $ltgry; }
 .bg-link {  background-color: $link; }
+.bg-purple {
+  background-color: $link;
+  color: #fff;
+}
 
+/* Borders */
 
 .bor   { border:        1px solid; }
 .borto { border-top:    1px solid; }
@@ -65,17 +79,19 @@ a {
 .rc {   border-radius: .25rem; }
 .circ { border-radius: 50%; }
 
-
 .btn-link {
   color: #fff;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
   background-color: $link;
   border-radius: .25rem;
   border: none;
-  &:hover {
-    color: #fff;
-    background-color: lighten($link, 5%);
-  }
+  &:hover,
   &:active {
+    color: #fff;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    background-color: lighten($link, 5%);
     box-shadow: inset 0 2px 4px rgba(0,0,0,.2);
   }
 }
@@ -86,7 +102,11 @@ a {
 }
 
 .bg-img {
-  background-image: url(img/bg.jpg);
   background-repeat:no-repeat;
   background-size:cover;
 }
+
+.shadow {
+  box-shadow: 5px 5px 14px 1px rgba(0,0,0,0.4);
+}
+

@@ -5,29 +5,41 @@ layout: default
 <section>
   <div class="content tc">
     <h2 class="f3 caps ss">Who is this book for?</h2>
-    <p class="f4 intro">
+    <p class="f4 intro mb4">
       You already write great code, and can figure out the latest frameworks. This
       book isn't about that - it's about everything else. As such, there's very little
       code inside, meaning everyone from PHP hackers to hardcore embedded C programmers
       will get a lot out of it.
     </p>
-    <div class=" mw1 center dn">
-      <img src="images/cover.png" alt="Cover" class="bor bor-gry" />
+    <div class="mw1 center">
+      <img src="images/cover.png" alt="Cover" class="shadow bor bor-gry" />
     </div>
     <h1 class="ss caps f3">Contents</h1>
     <ul class="list f4">
-      <li>Focus on Delivering Results <a href="{{site.url}}/results" title="Read Excerpt" class="f5 db">Read an excerpt</a></li>
-      <li>Fix Bugs Efficiently and Cleanly</li>
-      <li>Add Features with Ease</li>
-      <li>Deal With Technical Debt and Slop<a href="{{site.url}}/technical_debt" class="f5 db">Read an excerpt</a></li>
-      <li>Play Well With Others</li>
-      <li>Make Technical Decisions</li>
-      <li>Bootstrap a Greenfield System</li>
-      <li>Learn to Write</li>
-      <li>Interview Potential Co-Workers - <a href="{{site.url}}/interviews/" class="f5 db">Read an excerpt</a></li>
-      <li>Lead a Team</li>
+      <li class="list-item">
+        <a href="{{site.url}}/results" title="Read Excerpt" >Focus on Delivering Results
+          <span class="db ss f6">Read an excerpt »</span>
+        </a>
+      </li>
+      <li class="list-item">Fix Bugs Efficiently and Cleanly</li>
+      <li class="list-item">Add Features with Ease</li>
+      <li class="list-item">
+        <a href="{{site.url}}/technical_debt">
+          Deal With Technical Debt and Slop<br /> <span class="ss f6 db">Read an excerpt »</span>
+        </a>
+      </li>
+      <li class="list-item">Play Well With Others</li>
+      <li class="list-item">Make Technical Decisions</li>
+      <li class="list-item">Bootstrap a Greenfield System</li>
+      <li class="list-item">Learn to Write</li>
+      <li class="list-item">
+        <a href="{{site.url}}/interviews/">Interview Potential Co-Workers<br />
+          <span class="ss f6 db">Read an excerpt »</span>
+        </a>
+      </li>
+      <li class="list-item">Lead a Team</li>
     </ul>
-    <a href="{{site.url}}/toc/" title="Table of Contents" class="btn-link p1 m1 ss caps f5 mt2 dib">See full table of contents</a>
+    <a href="{{site.url}}/toc/" title="Table of Contents" class="btn-link p1 m1 ss caps f5 mt2 dib">See full table of contents »</a>
   </div>
 </section>
 
@@ -66,14 +78,14 @@ layout: default
 </section>
 <section class="borto bor-gry mt4 mb4 pb2 pt2">
   <div class="content">
-    <h1 class="ss f4 caps">Other writing</h1>
-
-    <ul class="list f3">
+    <h1 class="ss f4 caps mb4 tc">Other writing</h1>
+    <h2 class="ss m0 f5">From my blog Naildrivin' ❺</h2>
+    <ul class="list f3 borbo bor-gry pb2">
       <li>
         <a href="http://www.naildrivin5.com/blog/2012/10/05/making-it-right-technical-debt-vs-slop.html"
-           title="Making it right technical debt vs slop">
-           Making it right: Technical Debt vs. Slop »
-       </a>
+          title="Making it right technical debt vs slop">
+          Making it right: Technical Debt vs. Slop »
+        </a>
       </li>
       <li>
         <a href="http://www.naildrivin5.com/blog/2012/06/27/what-is-better-code.html" title="What is better code">
@@ -87,20 +99,42 @@ layout: default
       </li>
     </ul>
     <section>
-      <div class="media">
-        <img src="{{site.url}}/images/dccar.jpg" alt="Book Cover" class="img mw1" />
-        <div class="bd">
-        <h2 class="f4 ss">Build Awesome Command-Line Applications in Ruby</h2>
-        <p>
+      <h1 class="ss m0 f5 mt4">My other book</h1>
+      <h2 class="f4 ss mb0">Build Awesome Command-Line Applications in Ruby</h2>
+      <div class="grid v3-grid--2col v2-grid--2col mb4">
+        <div class="grid-cell">
+          <blockquote>
+            <p class="f5 i">
+              "David Copeland has written a guide to writing the kind of command-line
+              apps that will make your users want to hug you…this book will show you how to
+              take your scripts from adequate to awesome."
+            </p>
+            <p class="f6">—Avdi Grimm, Ruby Developer and author of "Exceptional Ruby"</p>
+          </blockquote>
+        </div>
+        <div class="grid-cell">
+          <blockquote>
+            <p class="f5 i">
+              I know of no other Ruby book that covers the content in this useful work, especially
+              with its eye toward making Ruby command-line applications better citizens.
+            </p>
+            <p class="f6">—Noel Rappin Senior engineer at Groupon and author of "Rails Test Prescriptions"</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="media mt2">
+        <img src="{{site.url}}/images/dccar.jpg" alt="Book Cover" class="fl shadow img mw1" />
+        <p class="mb2 f5">
           Speak directly to your system. With its simple commands, flags, and parameters,
           a well-formed command-line application is the quickest way to automate a backup,
           a build, or a deployment and simplify your life.
+          <a href="http://pragprog.com/book/dccar/build-awesome-command-line-applications-in-ruby"
+            title="Build Awesome Command Line Applications in Ruby"
+            class="btn-link p1 ss caps dib mt2"
+            >
+            Buy This Book »
+          </a>
         </p>
-        <a href="http://pragprog.com/book/dccar/build-awesome-command-line-applications-in-ruby"
-          title="Build Awesome Command Line Applications in Ruby">
-          Buy My Other Book
-        </a>
-      </div>
       </div>
     </section>
   </div>
