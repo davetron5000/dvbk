@@ -5,7 +5,7 @@ name: "The Senior Software Engineer"
 port: 5000
 # Populates the meta description for the site. Should be under 150 characters for best SEO results.
 # ============================================================
-description: "The Senior Software Engineer by Dave Copeland is a 200 page guide to making the most out of your development career"
+description: "The Senior Software Engineer by David Bryant Copeland is a 200 page guide to making the most out of your development career"
 
 # Owner (organization or individual) of site content - You'll want to change this from mrmrs :)
 # ============================================================
@@ -13,8 +13,8 @@ author: "davetron5000"
 
 # Change this when you generate your site for production to your production URL i.e http://mrsjxn.com
 # ============================================================
-#url: "http://localhost:5000"
-url: "http://mrmrs.github.io/dvbk"
+url: "http://localhost:5000"
+#url: "http://davetron5000.github.io/dvbk"
 
 # Publish future posts or not option. 
 # ============================================================
@@ -43,3 +43,9 @@ permalink: pretty
 # Uncomment if you have pygments installed. Used for code syntax highlighting. 
 # If you're not doing syntax highlighting you can delete this.
 #pygments: true
+
+# Custom
+buy_link: http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart
+
+
+
