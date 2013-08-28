@@ -355,6 +355,13 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+/* This is the worst. How did I mess this up. */
+.content-full {
+  padding: 0 20px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+
 a {
   -webkit-transition: color .3s;
   transition: color .3s;
@@ -474,6 +481,9 @@ pre {
   padding: 10px;
   border-radius: .25rem; }
 
+iframe {
+  margin: 0 auto; }
+
 /*
 
         Base
@@ -503,7 +513,7 @@ img {
    UGH
    ========================================================================== */
 .dn {
-  display: none; }
+  display: none !important; }
 
 .db {
   display: block; }

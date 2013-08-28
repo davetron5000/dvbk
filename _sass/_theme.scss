@@ -28,6 +28,15 @@ body {
   margin-right:auto;
 }
 
+/* This is the worst. How did I mess this up. */
+
+.content-full {
+  padding:0 20px;
+  max-width: 960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 a {
   -webkit-transition: color .3s;
   transition: color .3s;
@@ -117,3 +126,6 @@ pre {
   border-radius: .25rem;
 }
 
+iframe {
+  margin: 0 auto;
+}
