@@ -78,7 +78,7 @@ layout: default
     <li>ePub (iPad and most other e-readers)</li>
     <li>plain text (grep|ag|awk away!)</li>
   </ul>
-  <div class="tc mt2"><a rel="nofollow" href="{{site.buy_link}}" class="ss btn-link dib center p1 caps wht tc">Buy Now!</a></div>
+  <div class="tc mt2"><a href="{{site.buy_link}}" class="ss btn-link dib center p1 caps wht tc">Buy Now!</a></div>
 </section>
 <section class="borto bor-gry mt4 mb4 pb2 pt2">
   <div class="tc content-full">
@@ -116,7 +116,76 @@ layout: default
   </div>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </section>
-<section class="borto bor-gry mt4 mb4 pb2 pt2">
+<a name="buying_options"></a>
+<section class="bg-ltgry pb2 pt2">
+  <div class="tc content-full">
+    <h1 class="ss f3 caps mb4 tc">Buying Options</h1>
+    <div class="grid grid--center v3-grid--3col v2-grid--3col mb4">
+      <div class="grid-cell p1">
+        <h2 class="ss f5 tc mt1 caps">E-Book</h2>
+        <ul class="list tc f5 pb2">
+          <li>PDF</li>
+          <li>MOBI</li>
+          <li>ePub</li>
+          <li>Plain text</li>
+          <li>Delivered Instantly</li>
+        </ul>
+      </div>
+      <div class="grid-cell p1">
+        <h2 class="ss f4 tc mt1 caps">Buy Both and Save</h2>
+        <ul class="list tc f5 pb2">
+          <li>Get the electronic versions right now</li>
+          <li>Paper book ships <em>free</em> to US addresses only (<a onclick='$("#shipping-modal").modal(); return false' href="#">why?</a>)</li>
+        </ul>
+      </div>
+      <div class="grid-cell p1">
+        <h2 class="ss f5 tc mt1 caps">Paper Book</h2>
+        <ul class="list tc f5 pb2">
+          <li>Paperback, perfect binding</li>
+          <li>Beautifully typeset</li>
+          <li>Printed on-demand</li>
+          <li>Fulfilled by LuLu worldwide<sup>‡</sup></li>
+          <li><a href="#">See pictures</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-ltgry pb2 pt2">
+  <div class="tc content-full">
+    <div class="grid grid--center v3-grid--3col v2-grid--3col mb4">
+      <div class="grid-cell p1">
+        <div class="tc">
+          <a rel="nofollow" href="{{site.ebook_link}}" title="Buy eBook for ${{ site.price }}" class="mt1 mb1 f5 b dib ss btn-link p1 caps">Buy eBook ${{ site.price }}</a>
+        </div>
+      </div>
+      <div class="grid-cell p1">
+        <div class="tc">
+          <a rel="nofollow" href="{{site.package_link}}" title="Buy Both for ${{ site.both_price }}" class="mt1 mb1 f3 b dib ss btn-link p1 caps">Buy Both ${{ site.both_price }}</a>
+        </div>
+      </div>
+      <div class="grid-cell p1">
+        <div class="tc">
+          <a rel="nofollow" href="{{site.physical_book_link}}" title="Buy Paper Book for ${{ site.paper_price }}‡" class="mt1 f5 b dib ss btn-link p1 caps">Buy Paper Book ${{ site.paper_price }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="borbo bor-gry bg-ltgry pb2 pt2">
+  <div class="tc content-full">
+    <div class="grid grid--center v3-grid--3col v2-grid--3col mb4">
+      <div class="grid-cell p1">&nbsp;</div>
+      <div class="grid-cell p1">&nbsp;</div>
+      <div class="grid-cell p1">
+        <ul class="small tc list">
+          <li><sup>‡</sup> Price does not include shipping.</li>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mt4 mb4 pb2 pt2">
   <div class="content">
     <h1 class="ss f4 caps mb4 tc">Other writing</h1>
     <h2 class="ss m0 f5">From my blog Naildrivin' ❺</h2>
@@ -181,3 +250,28 @@ layout: default
   </div>
 
 </section>
+<aside class="modal" id="shipping-modal">
+  <h1 class="ss f4 tc mt1 caps title">Shipping outside the US</h1>
+  <p class="f5">
+  Unfortunately, my print-on-demand provider, LuLu, doesn't provide a way
+  to integrate with my electronic delivery provider, SendOwl.  This means
+  that I cannot have SendOwl fulfill the electronic version and LuLu fulfill
+  the physical version, meaning <em>I have to fulfill the physical orders myself</em>.
+  </p>
+  <p class="f5">
+  Further, SendOwl provides no way to calculate shipping based on your address and, as I am in
+  the US, shipping to countries outside the US is very expensive.  To keep things simple for
+  me, I'm initially just going to fulfill US orders, and roll in the cost of US
+  shipping to the price.
+  </p class="f5">
+  <h2 class="ss f5 tc mt1 caps">If you still want the physical book</h2>
+  <p class="f5">
+  You can still purchase the physical book from LuLu directly using <a href="{{site.book_only_link}}">this link</a>.  LuLu will
+  fulfill the order for you and ship to wherever you are.  Since LuLu can't tell me <em>who</em> bought the book, I cannot send
+  you a discount code on the electronic version to “simulate” the package deal (and I can't give you a discount code to LuLu either—they support it).
+  </p>
+  <p class="f5">
+  This won't necessarily be this way for ever, but I had to “cut scope” in order to ship.  I'm sure this is a concept you are familiar
+  with and I'm sorry I couldn't have sorted out something better.
+  </p>
+</aside>

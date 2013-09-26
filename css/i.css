@@ -485,6 +485,38 @@ iframe {
   margin: 0 auto; }
 
 /*
+   Modal stuff
+
+  This structure is forced on us by the plugin provider, and I'm too lazy
+  to roll my own modal dialog.
+
+*/
+#simplemodal-overlay {
+  background-color: #000; }
+
+#simplemodal-container {
+  height: 50%;
+  width: 50%;
+  color: #444444;
+  background-color: #eeeeee;
+  border: 5px solid #999999;
+  padding: 20px; }
+
+#simplemodal-container .simplemodal-data {
+  padding: 10px; }
+
+#simplemodal-container a.modalCloseImg {
+  background: url(/images/x.png) no-repeat;
+  width: 25px;
+  height: 29px;
+  display: inline;
+  z-index: 3200;
+  position: absolute;
+  top: -15px;
+  right: -16px;
+  cursor: pointer; }
+
+/*
 
         Base
 
@@ -1141,6 +1173,9 @@ strong, .bold {
     margin-right: 1rem; }
   .media .bd {
     overflow: hidden; }
+
+.modal {
+  display: none; }
 
 /* ==========================================================================
    grid

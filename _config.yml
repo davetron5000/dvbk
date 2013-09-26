@@ -13,8 +13,8 @@ author: "davetron5000"
 
 # Change this when you generate your site for production to your production URL i.e http://mrsjxn.com
 # ============================================================
-#url: "http://localhost:5000"
-url: "http://theseniorsoftwareengineer.com"
+url: "http://localhost:5000"
+#url: "http://theseniorsoftwareengineer.com"
 
 # Publish future posts or not option. 
 # ============================================================
@@ -45,7 +45,12 @@ permalink: pretty
 #pygments: true
 
 # Custom
-buy_link: http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart
+buy_link: /index.html#buying_options
+ebook_link: http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart
+package_link: http://transactions.sendowl.com/packages/2336/30EE138F/add_to_cart
+physical_book_link: http://www.lulu.com/shop/david-bryant-copeland/the-senior-software-engineer/paperback/product-21113363.html
 secret_cheap_physical_book_link: http://www.lulu.com/shop/david-bryant-copeland/the-senior-software-engineer/paperback/product-21113363.html
 price: 25
+paper_price: 30
+both_price: 45
 
