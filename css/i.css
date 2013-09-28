@@ -470,7 +470,9 @@ a {
 
 .bg-img {
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-image: url(/images/book_bg.jpg);
+  background-position: bottom; }
 
 .shadow {
   box-shadow: 5px 5px 14px 1px rgba(0, 0, 0, 0.4); }

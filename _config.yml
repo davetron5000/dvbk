@@ -13,8 +13,7 @@ author: "davetron5000"
 
 # Change this when you generate your site for production to your production URL i.e http://mrsjxn.com
 # ============================================================
-url: "http://localhost:5000"
-#url: "http://theseniorsoftwareengineer.com"
+url: "http://theseniorsoftwareengineer.com"
 
 # Publish future posts or not option. 
 # ============================================================
