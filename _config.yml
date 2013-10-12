@@ -44,7 +44,8 @@ permalink: pretty
 #pygments: true
 
 # Custom
-buy_link: /index.html#buying_options
+buy_link: http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart
+buy_internal_link: /index.html#buying_options
 ebook_link: http://transactions.sendowl.com/products/24086/D8D2ED13/add_to_cart
 package_link: http://transactions.sendowl.com/packages/2336/30EE138F/add_to_cart
 physical_book_link: http://www.lulu.com/shop/david-bryant-copeland/the-senior-software-engineer/paperback/product-21113363.html
