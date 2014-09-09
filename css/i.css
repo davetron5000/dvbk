@@ -560,6 +560,9 @@ img {
   margin-left: 0;
   padding: 0; }
 
+.list-inline li {
+  display: inline; }
+
 .list-item {
   margin-bottom: 1rem; }
 
