@@ -1,6 +1,5 @@
 source :rubygems
 
-gem 'rack'
-gem 'rake'
-gem 'sass'
-gem 'jekyll'
+gem "github-pages"
+gem "rake"
+gem "foreman"
